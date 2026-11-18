@@ -150,6 +150,8 @@ body.oleaje { margin: 0; background: var(--color-background); color: var(--color
   .oleaje-parallax .oleaje-scene__image { animation: none !important; transform: none !important; top: 0 !important; height: 100% !important; }
   .oleaje *, .oleaje *::before, .oleaje *::after { transition: none !important; animation: none !important; }
 }
+.oleaje-back { display: inline-block; margin-bottom: 24px; font: 500 15px/1.4 var(--font-body); letter-spacing: .02em; text-decoration: underline; text-underline-offset: 4px; opacity: .85; transition: opacity .2s; }
+.oleaje-back:hover { opacity: 1; }
 </style><link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""/>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&amp;family=Racing+Sans+One&amp;display=swap" rel="stylesheet"/></head>
@@ -157,10 +159,13 @@ body.oleaje { margin: 0; background: var(--color-background); color: var(--color
   <a class="oleaje-skip" href="#contenido">Saltar al contenido</a>
 <header class="oleaje-header">
   <div class="oleaje-wrap oleaje-header__inner">
-    <a class="oleaje-brand" href="https://stronglifythemes.github.io#inicio">Oleaje</a>
+    <a class="oleaje-brand" href="./">Oleaje</a>
     <nav class="oleaje-nav" aria-label="Navegación principal">
-      <a href="https://stronglifythemes.github.io#marea">La marea</a>
-      <a href="https://stronglifythemes.github.io#frecuencia">Otra frecuencia</a>
+      
+      <a href="./blog">Blog</a>
+      
+      <a href="./about">Nosotros</a>
+      
     </nav>
   </div>
 </header>
@@ -193,7 +198,7 @@ body.oleaje { margin: 0; background: var(--color-background); color: var(--color
     <img class="oleaje-scene__image" src="https://media.stronglify.com/295/photo-1575503588201-2ec789aa72a3-1794697135.jpg" alt="" width="2400" height="1600" loading="lazy" decoding="async"/>
     <div class="oleaje-wrap oleaje-scene__content">
       <h2 id="horizonte-title">Respira mar.</h2>
-      <p class="oleaje-lead"></p>
+      <p class="oleaje-lead">Cada salida empieza mirando la línea donde el cielo toca el agua.</p>
       <a class="oleaje-button" href="#corriente">Sigue la corriente</a>
     </div>
   </section>
@@ -201,7 +206,7 @@ body.oleaje { margin: 0; background: var(--color-background); color: var(--color
     <img class="oleaje-scene__image" src="https://media.stronglify.com/295/photo-1564698010692-0fe284aae806-1794697136.jpg" alt="" width="2400" height="1600" loading="lazy" decoding="async"/>
     <div class="oleaje-wrap oleaje-scene__content">
       <h2 id="corriente-title">Todo se mueve.</h2>
-      <p class="oleaje-lead"></p>
+      <p class="oleaje-lead">Las mareas cambian dos veces al día. Tus planes también pueden.</p>
       <a class="oleaje-button" href="#frecuencia">Busca tu frecuencia</a>
     </div>
   </section>
@@ -210,7 +215,7 @@ body.oleaje { margin: 0; background: var(--color-background); color: var(--color
     <div class="oleaje-wrap oleaje-scene__content">
       <h2 id="frequency-title">En otra frecuencia.</h2>
       <p class="oleaje-lead">Menos ruido. Más mar.</p>
-      <a class="oleaje-button" href="#inicio">Una ola más</a>
+      <a class="oleaje-button" href="./blog">Lee el blog</a>
     </div>
   </section>
 </main>
@@ -219,12 +224,16 @@ body.oleaje { margin: 0; background: var(--color-background); color: var(--color
     <div class="oleaje-footer__top">
       <p>Nos vemos en el agua.</p>
       <nav class="oleaje-nav" aria-label="Navegación del pie">
-        <a href="https://stronglifythemes.github.io#inicio">Inicio</a>
-        <a href="https://stronglifythemes.github.io#marea">La marea</a>
-        <a href="https://stronglifythemes.github.io#frecuencia">Otra frecuencia</a>
+        
+        <a href="./">Inicio</a>
+        
+        <a href="./blog">Blog</a>
+        
+        <a href="./about">Nosotros</a>
+        
       </nav>
     </div>
-    <a class="oleaje-footer__brand" href="https://stronglifythemes.github.io#inicio">Oleaje</a>
+    <a class="oleaje-footer__brand" href="./">Oleaje</a>
   </div>
 </footer>
 </body></html>
